@@ -52,7 +52,7 @@ $.nette.ext('nette.modal', {
 });
 ```
 
-## Auto submit
+## Form submit
 Send a form using enter or a reader that sends enter.
 
 ```js
