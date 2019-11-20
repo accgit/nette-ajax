@@ -40,7 +40,7 @@ $.nette.ext('nette.modal', {
 				keyboard: false
 			});
 
-			// Exits the modal with the command.
+		// Exits the modal with the command.
 		} else if (payload.modal === 'close'){
 			$('#modal').modal('hide');
 
