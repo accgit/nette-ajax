@@ -1,2 +1,2 @@
 ## Info
-Simple extensions for Nette Ajax.
+Simple js plugins for Nette Framework AJAX.
