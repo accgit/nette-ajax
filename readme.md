@@ -1,5 +1,5 @@
 ## Info
-Simple js extensions for Nette Framework AJAX. Adapted to Bootstrap 4.
+Simple js extensions for Nette Framework AJAX. Adapted to Bootstrap 4
 
 ## Auto Refresh
 For some applications, we may need an automatic refresh page, which we can do subsequently.
