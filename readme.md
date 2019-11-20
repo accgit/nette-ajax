@@ -23,3 +23,31 @@ function stopAutoRefresh() {
 ```
 
 Once the request is complete, we'll call the automatic page refresh feature again.
+
+## Modal extension
+Basic start and close of modal.
+
+```js
+	$.nette.ext('nette.modal', {
+		success: function (payload) {
+
+			// Run the modal window with the command.
+			if (payload.modal === 'run') {
+
+				// Disable closing the modal after clicking outside it.
+				$('#modal').modal({
+					backdrop: 'static',
+					keyboard: false
+				});
+
+				// Exits the modal with the command.
+			} else if (payload.modal === 'close'){
+				$('#modal').modal('hide');
+
+				// Deletion of inserted classes after calling a modal.
+				$('body').removeClass('modal-open');
+				$('.modal-backdrop').remove();
+			}
+		}
+	});
+```
