@@ -1,5 +1,5 @@
 ## Info
-Simple js plugins for Nette Framework AJAX.
+Simple js extensions for Nette Framework AJAX.
 
 ## Auto Refresh
 For some applications, we may need an automatic refresh page, which we can do subsequently.
