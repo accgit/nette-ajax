@@ -51,3 +51,18 @@ $.nette.ext('nette.modal', {
 	}
 });
 ```
+
+## Auto submit
+Send a form using enter or a reader that sends enter.
+
+```js
+$.nette.ext('nette.submit', {
+	load: function() {
+		$('#form').off('keypress').on('keypress', function(e) {
+			if (e.which === 10 || e.which === 13) {
+				$(this).submit();
+			}
+		});
+	}
+});
+```
